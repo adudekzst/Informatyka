@@ -1,0 +1,15 @@
+peer-to-peer (każdy w każdym)
+
+Topologie logiczne:
+- punkt-punkt:
+    W topologii punkt-punkt dane przesyłane są od jednego urządzenia do drugiego bezpośrednio (np. komputer z przełącznikiem) lub pośrednio (np. dwa routery).
+    Topologię punkt-punkt wykorzystuje się w topologii fizycznej gwiazdy.
+- przekazywania żetonu (token passing):
+    W topologii przekazywania żetonu, dane przekazywane są kolejno do urządzeń połączonych w sieć. Urządzenie, które otrzyma porcję danych, analizuje czy są one 
+    kierowane do niego czy też nie. Jeśli dane nie są do niego adresowane, przekazuje je dalej, do sąsiedniego urządzenia. W taki sposób, dane przesyłane są przez  
+    wszystkie urządzenia występujące pomiędzy urządzeniem źródłowym, a docelowym.
+- wielodostępową
+
+
+
+
