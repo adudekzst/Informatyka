@@ -1,1 +1,54 @@
 Temat : Warstwowy model sieci komputerowej.
+
+Temat : Model sieciowy ISO/OSI.
+
+(Open Systems Interconnection Reference Model)
+
+Model ten został stworzony w celu normalizacji zasad komunikacji sieci.
+Model ten został przygotowany z myślą o tworzeniu tak zwanego systemu otwartego,
+który nie będzie należał do żadnej zamkniętej sieci.
+Model ten jest modelem poglądowym (teorytycznym) i został podzielony na siedem warstw:
+
+7. warstwa aplikacji - umożliwia komunikacje z użytkownikiem (strony WWW, poczta elektroniczna).
+
+6. warstwa prezentacji - zajmuje się konwersją danych i definiowaniem formatów - odpowiada również
+                        za odpowiednie kodowanie danych (szyfrowanie) na urządzeniu źródłowym i ich 
+                        odkodowanie na urządzeniu docelowym. (szyfruje i sprawdza format plików).
+
+5. warstwa sesji - zarządza sesjami użytkowników korzystających np. ze stron WWW czy komunikacji video.
+
+4. warstwa transportowa - głównym zadaniem jest sprawna obsługa  komunikacji pomiędzy urządzeniami.
+                        W warstwie tej dane dzielone są na mniejsze części (segmentowanie), a następnie
+                        opatrywane są dodatkowymi informacjami, między innymi nadawane są numery porządkowe,
+                        które pozwalają na przydzielenie do właściwej aplikacji
+
+3. warstwa sieci - segmenty danych są wzbogacane o nagłówki sieci zawierające adres IP, źródła i celu.
+                  W ten sposób tworzy się pakiety danych. Głównym zadaniem warstwy sieciowej jest 
+                  wybieranie najlepszej drogi od nadawcy do odbiorcy dla stworzonych w niej pakietów.
+
+2. warstwa łącza danych - głównym zadaniem jest wykrywanie i korygowanie błędów,
+                        na jakie narażone jest komunikacja w sieci. Dodatkowo zajmuje
+                        się podziałem wysyłanego pakietu na ramki, które posiadają 
+                        informację o architekturze sieci.
+
+1. warstwa fizyczna - koduje dane do postaci czystych bitów (zer i jedynek) i przesyła je
+                    poprzez medium transmisyjne do odpowiednich urządzeń.
+//
+
+Enkapsulacja - jest to przechodzenie (zamiana) danych z warstwy wyższej do warstwy niższej.
+
+//
+
+Model sieciowy TCP/IP:
+
+- warstwa aplikacji (warstwa sesji + warstwa prezentacji + warstwa aplikacji w modelu ISO) - zajmuje się
+                     reprezentacją danych dla użytkownika oraz ich kodowaniem.
+
+- warstwa transportowa (warstwa transportowa w modelu ISO) - zapewnia komunikację pomiędzy różnymi urządzeniami w sieci.
+
+- warstwa internetu (warstwa sieci w modelu ISO) - zapewnia najlepszą trasę dla przepływu pakietów.
+
+- warstwa dostępu do sieci (warstwa fizyczna + warstwa łącza danych w modelu ISO) - kontroluje urządzenia fizyczne i media.
+
+
+
