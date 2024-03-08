@@ -1,1 +1,25 @@
 Temat : Protokoły modeli warstwowych. 
+
+Protokoły: 
+
+- Protokół DNS (ang. Domain Name System) - jest używany do odwzorowania nazw w internecie na adresy IP.
+
+- Protokół HTTP (ang. Hypertext Transfer Protocol) - jest używany do przesyłania plików hipertekstowych, czyli tworzących strony WWW.
+
+- Protokół HTTPS (ang. Hypertext Transfer Protocol Secure) - szyfrowana wersja protokoły HTTP. Protokół ten wykorzystuje szyfrowanie TLS.
+
+- Protokół SMTP (ang. Simple Mail Transfer Protocol) - służy do wysyłania wiadomości poczty elektronicznej wraz z załącznikami.
+
+- Protokół IMAP (ang. Internet Message Access Protocol) - używa się go do odbioru poczty elektronicznej. Protokół ten posiada funkcje POP3,
+                                                        a także pozwala na zarządzanie zdalnymi folderami znajdującymi sięna serwerze.
+
+- Protokół Telnet (ang. Telecommunication Network) - protokół do obsługi terminala zdalnego urządzenia.
+
+- Protokół FTP (ang. File Transfer Protocol) - służy do przesyłania plików między klientem a serwerem FTP.
+
+- Protokół DHCP (ang. Dynamic Host Configuration Protocol) - jest używany do dynamicznej konfiguracji urządzeń. Odpowiafa za przydzielanie adresów IP,
+                                                          adresu domyślnej bramy i adresów serwerów DNS.
+
+- Protokół SSH (ang. Secure Shell) - protokół, którego używa siędo emulacji (symulowania działania) terminala sieciowego Zapewnia szyfrowanie połączenia.
+
+- ProtokółNFS
