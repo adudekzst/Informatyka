@@ -1,1 +1,30 @@
 Temat: Powtórzenie wiadomości i zagadnienia na sprawdzian.
+
+53. 
+- pojęcie internetu - sieć rozległa łącząca inne mniejsze sieci (w notatkach)
+- co to jest sieć WAN - sieć rozległa (rozległy zasięg)
+- co to jest sieć LAN - sieć lokalna (mniejszy zasięg)
+- Router i switch (opisać co powoduje switch i router, porty na switchu i routerze
+- protokół IP i TCP 
+- co to jest adres sieciowy statyczny i dynamiczny (nie pisać że statyczne się nie zmienia a dynamiczne zmienia tylko rozwinąć)
+- protokół DHCP
+- instytucje czuwające nad przyznawaniem IP (rys 53.7. od czego sie zaczyna i na czym kończy wyróżnili nazwy (rozwineli))
+- podstawowe narzędzia diagnostyczne sieci (ping www.wp.pl - wysyłanie pakietów testowych pod wskazany adres sieciowy i sprawdzenie czy mamy kontakt,
+                                            tracert www.wp.pl - tracert pokazuje przez jakie węzły ta paczka przychodzi
+                                            ipconfig /all - wyświetlanie szczegółowych informacji dotyczących połączenia siecowego 
+                                            Oprócz opisu ipconfig:
+                                             - co to adres fizyczny(adres MAC)
+                                             - jak zbudowany jest adres ip w wersji 4 (scharakteryzuj okrer w wersji 4
+                                             - brama domyślna połączenia sieciowego)
+
+54.
+- popularne ataki sieciowe (flooding, sniffing (podstawowe ataki w ćwiczeniach na teamsach)
+
+55.
+- topologie sieciowe (wszystkie oprócz topologii P2P (4 fizyczne i 3 logiczne) )
+
+
+
+
+
+
