@@ -1,1 +1,10 @@
 Temat: Funkcje urządzeń i protokołów.
+
+Urządzenia niezbędne do usługi i funkcjonowania sieci możemy podzielić na trzy grupy:
+
+- urządzenia transmisji - są wykorzystywane i przeznaczone do transportu sygnału biegnącego przez sieć (przewód sieciowy tak zwana skrętka, światłowód)
+
+- urządzenia dostępu - odpowiedzialne za przygotowywanie danych do przesyłu sieci (karta sieciowa, switch, router)
+
+- urządzenia wzmacniania przesyłanych sygnałów (ekspander zasięgu Wi-Fi)
+
